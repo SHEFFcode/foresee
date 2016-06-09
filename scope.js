@@ -1,10 +1,10 @@
-function foo () {
+function foo () { // running the function from there will throw an error
 	console.log(name);
 }
 
 function bar () {
 	var name = 'Jeremy';
-	// function foo () { //running a function from there shows the lexical scope I was talking about
+	// function foo () { //defining a function from here will work and shows the lexical scope I was talking about
 	// 	console.log(name);
 	// }
 	foo();
